@@ -32,6 +32,8 @@
             ans:"ans1"
         }
     ];
+    // #to disable right click
+    document.addEventListener('contextmenu', event => event.preventDefault());  
 
     const question = document.querySelector('.question');
     const option1 = document.querySelector('#option1');
